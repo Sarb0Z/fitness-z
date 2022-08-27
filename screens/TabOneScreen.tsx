@@ -16,6 +16,16 @@ const Exercise = (props: any) => {
 
   const addActivity = () => {
     console.log("activity");
+    console.log(
+      "name: " +
+        name +
+        ", duration: " +
+        duration +
+        ", calories: " +
+        calories +
+        ", date: " +
+        date
+    );
   };
 
   return (
